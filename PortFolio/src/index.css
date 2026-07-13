@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-warm: #F1EBE0;
+  --color-text-espresso: #2B211A;
+  --color-accent-slate: #7C9BB0;
+  --color-accent-slate-dark: #637F94;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-grotesque: "Outfit", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-bg-warm);
+    color: var(--color-text-espresso);
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom background paper texture/grain styling */
+.editorial-grain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  content: "";
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3e%3cfilter id='noise'%3e%3cfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3e%3c/filter%3e%3crect width='100%25' height='100%25' filter='url(%23noise)'/%3e%3c/svg%3e");
+}
+
+/* Custom polaroid tape effect */
+.polaroid-tape {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width: 80px;
+  height: 24px;
+  background-color: rgba(218, 211, 196, 0.6);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Folder tab styling for container headers */
+.folder-tab {
+  position: relative;
+  display: inline-block;
+  padding: 6px 20px;
+  background-color: #E6DFD3;
+  color: var(--color-text-espresso);
+  font-family: var(--font-grotesque);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: -1px;
+  z-index: 10;
+}
+
+/* Scrollbar styling for editorial feel */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F1EBE0;
+}
+::-webkit-scrollbar-thumb {
+  background: #DAD3C4;
+  border-radius: 5px;
+  border: 2px solid #F1EBE0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7C9BB0;
+}
+
+/* Fixed video background styling with blur & scale */
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -20;
+  opacity: 0.35;
+  filter: blur(1.5px);
+  transform: scale(1.02); /* Hides white borders caused by blur */
+  pointer-events: none;
+}
+
+/* Subtle slate-blue tint overlay to match bluer theme request */
+.video-bg-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -19;
+  background-color: var(--color-accent-slate);
+  opacity: 0.05;
+  pointer-events: none;
+}

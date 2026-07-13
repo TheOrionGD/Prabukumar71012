@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%" fill="none">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#F1EBE0"/>
+  <!-- Grid lines -->
+  <g stroke="#2B211A" stroke-opacity="0.04" stroke-width="1">
+    <line x1="50" y1="0" x2="50" y2="400" />
+    <line x1="100" y1="0" x2="100" y2="400" />
+    <line x1="150" y1="0" x2="150" y2="400" />
+    <line x1="200" y1="0" x2="200" y2="400" />
+    <line x1="250" y1="0" x2="250" y2="400" />
+    <line x1="300" y1="0" x2="300" y2="400" />
+    <line x1="350" y1="0" x2="350" y2="400" />
+    <line x1="0" y1="50" x2="400" y2="50" />
+    <line x1="0" y1="100" x2="400" y2="100" />
+    <line x1="0" y1="150" x2="400" y2="150" />
+    <line x1="0" y1="200" x2="400" y2="200" />
+    <line x1="0" y1="250" x2="400" y2="250" />
+    <line x1="0" y1="300" x2="400" y2="300" />
+    <line x1="0" y1="350" x2="400" y2="350" />
+  </g>
+  <!-- Chart Container -->
+  <rect x="70" y="80" width="260" height="240" rx="16" fill="#EAE3D5" fill-opacity="0.5" stroke="#2B211A" stroke-width="2" />
+  
+  <!-- Line Graph -->
+  <path d="M 90,260 L 140,210 L 190,240 L 240,150 L 290,180 L 310,120" stroke="#7C9BB0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Grid inside Chart -->
+  <line x1="90" y1="280" x2="310" y2="280" stroke="#2B211A" stroke-width="1.5" />
+  <line x1="90" y1="100" x2="90" y2="280" stroke="#2B211A" stroke-width="1.5" />
+  
+  <!-- Points -->
+  <circle cx="140" cy="210" r="5" fill="#2B211A" />
+  <circle cx="190" cy="240" r="5" fill="#2B211A" />
+  <circle cx="240" cy="150" r="5" fill="#2B211A" />
+  <circle cx="290" cy="180" r="5" fill="#2B211A" />
+  
+  <!-- Target predictive zone circle -->
+  <circle cx="310" cy="120" r="10" fill="#7C9BB0" fill-opacity="0.3" stroke="#7C9BB0" stroke-width="1" />
+  <circle cx="310" cy="120" r="4" fill="#7C9BB0" />
+</svg>

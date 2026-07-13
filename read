@@ -1,0 +1,152 @@
+- Warm, editorial, "creative desktop" aesthetic — soft and approachable, not corporate-dark
+- Color palette:
+  - Background: warm cream/off-white (#F1EBE0)
+  - Primary text: deep espresso brown (#2B211A), used instead of pure black
+  - Accent: dusty slate blue (#7C9BB0) for buttons, links, highlights, icons
+  - No pure white, no pure black anywhere — keep everything warm and muted
+- Typography: pair two contrasting display styles for section headers —
+  - An elegant italic serif/script for accent words (e.g. name or tagline fragment)
+  - A bold, heavy grotesque sans for the dominant word/headline
+  - Small uppercase letter-spaced labels as section eyebrows (e.g. "PROJECTS", "SKILLS")
+- Layout: loose, natural asymmetry rather than rigid grid alignment for the project cards — like scattered desktop icons/folders, but still readable and scannable on scroll
+- Shape language: soft rounded rectangles throughout (cards, buttons, image containers) echoing a "folder" motif
+- Imagery: project thumbnails styled like small polaroid/index cards with a caption line underneath, subtle drop shadow, slight rotation on hover
+- Micro-interactions: cursor-follow or hover-lift effects on project cards for a tactile, human feel (Framer Motion)
+- Generous whitespace — low visual density, nothing crowded
+- Light mode only (this palette doesn't translate to dark mode — do not add a dark toggle)
+
+Build a recruiter-ready developer portfolio website in React.
+
+## Tech Stack
+- React (functional components + hooks)
+- Tailwind CSS for styling
+- Framer Motion for subtle scroll/entrance animations (nothing excessive — recruiters skim fast)
+- React Router (or single-page scroll with anchor nav) — single-page scroll preferred for a portfolio this size
+- Fully responsive: mobile, tablet, desktop
+
+## Design Direction
+- Clean, editorial, typography-driven layout — not a generic template
+- Cinematic color palette: deep charcoal/near-black background, teal accent, amber/gold secondary accent
+- Strong type hierarchy: large confident headline font for name/section titles, readable sans-serif for body
+- Generous whitespace, no clutter — a recruiter should understand who I am and what I've built within 8 seconds of landing
+- Subtle grain/gradient or minimal geometric background accents are welcome; avoid busy patterns or stock illustrations
+- Dark mode by default
+
+## Site Structure (single page, anchor-linked sections)
+<table border="0" width="100%">
+  <tr>
+    <td width="60%" valign="top">
+      <h1>Hi there! I'm Prabukumar 👋</h1>
+      <br/>
+      <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=C0C0C0&width=400&lines=Cloud+%26+AI+Enthusiast;Python+%26+Java+Developer;Lifelong+Learner;NSS+Volunteer" alt="Typing SVG" />
+      <br/><br/>
+      <a href="https://github.com/Prabukumar710">
+        <img src="https://img.shields.io/badge/GitHub-Prabukumar710-C0C0C0?style=for-the-badge&logo=github&logoColor=black" alt="GitHub" />
+      </a>
+      <a href="mailto:your-prabukumarv.prof@gmail.com.com">
+        <img src="https://img.shields.io/badge/Email-Contact_Me-C0C0C0?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" />
+      </a>
+      <br/><br/>
+      <img src="https://komarev.com/ghpvc/?username=Prabukumar710&style=flat-square&color=C0C0C0&label=Profile+Views" alt="Profile Views" />
+    </td>
+    <td width="40%" align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Modern%20Work%20Environment.gif" alt="Developer Activity" width="320" />
+    </td>
+  </tr>
+</table>
+
+---
+
+### 💫 About Me
+I am a highly motivated Information Technology student passionate about **Artificial Intelligence, Cloud Computing, and Data Science**. I specialize in building and optimizing intelligent applications using Microsoft Azure, Python, and Java. 
+
+* 🔭 **Current Focus:** I am currently working as an **Artificial Intelligence Intern** (June 12, 2026 - July 26, 2026).
+* 🚀 **Mission:** Bridging the gap between software development and intelligent cloud solutions.
+* 👥 **Beyond Tech:** Active **NSS Volunteer** and Event Coordinator who loves managing team-driven activities and technology symposia.
+
+---
+
+### 🛡️ Professional Certifications
+<table border="0" align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_AI_Engineer_Associate-C0C0C0?style=for-the-badge&logo=microsoft&logoColor=black" alt="Azure AI Engineer Associate" />
+      <br/>
+      <b>AI-102 Certification</b><br/>
+      <i>Simplilearn • Feb 2025</i>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_Fundamentals-C0C0C0?style=for-the-badge&logo=microsoft&logoColor=black" alt="Azure Fundamentals" />
+      <br/>
+      <b>AZ-900 Certification</b><br/>
+      <i>Simplilearn • Jan 2026</i>
+    </td>
+  </tr>
+</table>
+
+- 🏆 **Simplilearn SkillUp** Certificate of Completion (Dec 28, 2025)
+- 🎓 **NPTEL Certification Portfolio:**
+  - **Python for Data Science** (Domain Mastered - 2025)
+  - **Programming in Java** (2026)
+  - **Patent Drafting for Beginners** (2025)
+
+---
+
+### 💼 Technical Experience & Internships
+#### 🤖 Artificial Intelligence Intern
+*June 12, 2026 – July 26, 2026*
+* Hands-on development of AI models and machine learning pipelines.
+* Leveraging Azure AI solutions to deploy models and design interactive data tools.
+
+---
+
+### 🛠️ Technical Stack & Skills
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-C0C0C0?style=for-the-badge&logo=python&logoColor=black" />
+  <img src="https://img.shields.io/badge/Java-C0C0C0?style=for-the-badge&logo=openjdk&logoColor=black" />
+  <img src="https://img.shields.io/badge/Microsoft_Azure-C0C0C0?style=for-the-badge&logo=microsoft-azure&logoColor=black" />
+  <img src="https://img.shields.io/badge/Azure_AI-C0C0C0?style=for-the-badge&logo=microsoft&logoColor=black" />
+  <img src="https://img.shields.io/badge/Data_Science-C0C0C0?style=for-the-badge&logo=pandas&logoColor=black" />
+  <img src="https://img.shields.io/badge/Artificial_Intelligence-C0C0C0?style=for-the-badge&logo=openai&logoColor=black" />
+</p>
+
+---
+
+### 🏫 Workshops & Training
+* **The Hands-on Workshop on Data Science** (August 28 - 29, 2024)
+  * Participated in an intensive, practical training session focused on advanced data analytics, statistical algorithms, and data exploration tools.
+
+---
+
+### 🗣️ Leadership & Extracurricular Activities
+- 🎭 **Event Coordinator — Festronix '24 & Masturo Events** (Sept 2024)
+  - Organized and coordinated major events within the IT Department, ensuring smooth execution and coordination across student committees.
+- ⚡ **Event Coordinator — Enthusia 2025**
+  - Planned, coordinated, and executed student events during the Enthusia festival.
+- 🌟 **Event Coordinator — National Level Symposium**
+  - Managed the administrative and technical tracks for the IT Department's national-level symposium.
+- 🤝 **NSS Volunteer (National Service Scheme)**
+  - Active participant in community development programs and social welfare camps.
+
+---
+
+### 🏆 GitHub Trophies
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-trophies.devomb.com/?username=Prabukumar710&theme=gitdimmed&no-bg=true&no-frame=true&column=6" alt="Github Trophies" />
+  </a>
+</p>
+
+---
+
+### 📊 GitHub Performance & Stats
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=Prabukumar710&show_icons=true&bg_color=1c1c1c&title_color=c0c0c0&text_color=e0e0e0&icon_color=c0c0c0&border_color=3a3a3a" alt="Prabu's GitHub stats" width="48%" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Prabukumar710&layout=compact&bg_color=1c1c1c&title_color=c0c0c0&text_color=e0e0e0&icon_color=c0c0c0&border_color=3a3a3a" alt="Top Langs" width="48%" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Prabukumar710&theme=dark&background=1c1c1c&fire=c0c0c0&ring=c0c0c0&currStreakLabel=c0c0c0&sideNums=c0c0c0&currStreakNum=c0c0c0" alt="Streak Stats" width="98%" />
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prabukumar710&bg_color=1c1c1c&color=e0e0e0&line=c0c0c0&point=ffffff&area=true&area_color=2c2c2c&title_color=c0c0c0&hide_border=true" alt="Activity Graph" width="98%" />
+</p>
