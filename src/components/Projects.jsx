@@ -75,7 +75,7 @@ export default function Projects() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 0.7, delay: index * 0.1 }}
-                  className="w-full lg:max-w-4xl grid grid-cols-1 md:grid-cols-12 gap-8 items-center bg-[#EAE3D5]/40 backdrop-blur-md border border-text-espresso/10 p-6 md:p-8 rounded-3xl relative shadow-sm"
+                  className="w-full lg:max-w-4xl grid grid-cols-1 md:grid-cols-12 gap-8 items-center glass-morphism p-6 md:p-8 rounded-3xl relative"
                 >
                   {/* Small folder tab design inside cards */}
                   <div className="absolute -top-3 left-6 px-3 py-1 bg-[#EAE3D5] text-text-espresso/60 font-grotesque text-[10px] tracking-wider uppercase font-bold rounded-t-md border-t border-x border-text-espresso/10">

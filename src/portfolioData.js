@@ -3,7 +3,7 @@ export const portfolioData = {
     name: "Prabukumar V",
     role: "Cloud & AI Enthusiast",
     tagline: "Bridging the gap between software development and intelligent cloud solutions — specializing in AI, Cloud Computing, and Data Science.",
-    email: "your-prabukumarv.prof@gmail.com",
+    email: "prabukumarv.prof@gmail.com",
     linkedin: "", // None provided in profile
     github: "https://github.com/Prabukumar710",
     resumeUrl: "/resume.pdf", // Static path in public folder

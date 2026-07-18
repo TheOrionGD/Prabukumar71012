@@ -58,8 +58,9 @@ export default function Skills() {
                       <motion.span
                         key={skill}
                         variants={itemVariants}
-                        whileHover={{ scale: 1.03, backgroundColor: "#7C9BB0", color: "#F1EBE0" }}
-                        className="px-4 py-2 bg-bg-warm border border-text-espresso/10 hover:border-accent-slate text-text-espresso rounded-xl text-sm font-sans font-medium transition-colors duration-250 cursor-default select-none shadow-sm"
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="px-4 py-2 neu-morphism text-text-espresso rounded-xl text-sm font-sans font-medium transition-all duration-300 cursor-default select-none"
                       >
                         {skill}
                       </motion.span>

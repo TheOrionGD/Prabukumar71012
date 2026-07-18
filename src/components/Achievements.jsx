@@ -67,7 +67,7 @@ export default function Achievements() {
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 whileHover={{ x: 10 }}
-                className="flex items-start gap-4 p-5 md:p-6 bg-[#FAF8F5]/45 backdrop-blur-md border border-text-espresso/10 rounded-2xl hover:border-accent-slate transition-all duration-300 shadow-sm"
+                className="flex items-start gap-4 p-5 md:p-6 clay-morphism"
               >
                 <div className={`p-3 rounded-xl ${meta.color} border shrink-0`}>
                   <Icon size={20} />

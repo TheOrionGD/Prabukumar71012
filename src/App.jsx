@@ -10,7 +10,7 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Achievements from './components/Achievements';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+
 
 export default function App() {
   const { name, resumeUrl } = portfolioData.personalInfo;
@@ -81,7 +81,7 @@ export default function App() {
       <header 
         className={`fixed top-0 left-0 w-full z-45 transition-all duration-300 ${
           scrolled 
-            ? 'bg-bg-warm/80 backdrop-blur-md border-b border-text-espresso/10 py-4 shadow-sm' 
+            ? 'glass-morphism border-t-0 border-l-0 border-r-0 py-4' 
             : 'bg-transparent py-6'
         }`}
       >
@@ -179,7 +179,7 @@ export default function App() {
         <Contact />
       </main>
 
-      <Footer />
+
     </div>
   );
 }

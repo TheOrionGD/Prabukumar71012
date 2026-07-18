@@ -28,11 +28,8 @@ export default function Hero() {
   const restName = nameParts.slice(1).join(' ');
 
   return (
-    <section className="relative min-h-[90vh] flex flex-col justify-center px-6 py-20 md:px-12 lg:px-24">
-      {/* Background Decorative Element: Large subtle folder motif outline */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] h-[80%] border-2 border-[#EADFC9]/50 rounded-[40px] pointer-events-none -z-10" />
-
-      <div className="max-w-4xl mx-auto w-full">
+    <section className="relative min-h-[80vh] flex flex-col justify-center px-6 pt-8 pb-20 md:px-12 lg:px-24 mt-4">
+      <div className="max-w-4xl mx-auto w-fit glass-morphism p-6 md:p-10 rounded-3xl relative z-10">
         {/* Eyebrow */}
         <motion.div
           initial={{ opacity: 0, y: 15 }}

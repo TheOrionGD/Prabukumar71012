@@ -113,3 +113,52 @@
   opacity: 0.05;
   pointer-events: none;
 }
+
+/* ==========================================================================
+   Morphism Design Utility Classes
+   ========================================================================== */
+
+/* Glassmorphism */
+.glass-morphism {
+  background: rgba(241, 235, 224, 0.5);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(43, 33, 26, 0.05);
+}
+
+/* Neumorphism (Extruded/Raised) */
+.neu-morphism {
+  background: var(--color-bg-warm);
+  box-shadow: 
+    8px 8px 16px #dcd4c6,
+    -8px -8px 16px #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Neumorphism (Inset/Pressed) */
+.neu-morphism-inset {
+  background: var(--color-bg-warm);
+  box-shadow: 
+    inset 4px 4px 8px #dcd4c6,
+    inset -4px -4px 8px #ffffff;
+}
+
+/* Claymorphism (Soft, 3D, Puffy) */
+.clay-morphism {
+  background: var(--color-bg-warm);
+  border-radius: 24px;
+  box-shadow: 
+    8px 8px 16px rgba(43, 33, 26, 0.05),
+    inset -4px -4px 12px #dcd4c6,
+    inset 4px 4px 12px #ffffff;
+  transition: all 0.3s ease;
+}
+
+.clay-morphism:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    12px 12px 20px rgba(43, 33, 26, 0.08),
+    inset -4px -4px 12px #dcd4c6,
+    inset 4px 4px 12px #ffffff;
+}

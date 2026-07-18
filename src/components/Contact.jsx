@@ -67,13 +67,13 @@ export default function Contact() {
             </div>
 
             {/* Tactile Copyable Email Box */}
-            <div className="bg-[#FAF8F5]/40 backdrop-blur-md border border-text-espresso/10 p-6 rounded-2xl space-y-4">
+            <div className="neu-morphism p-6 rounded-2xl space-y-4">
               <div className="flex items-center gap-2">
                 <Mail size={18} className="text-accent-slate" />
                 <span className="font-grotesque text-xs tracking-widest text-text-espresso/50 uppercase font-bold">Email Address</span>
               </div>
               
-              <div className="flex items-center justify-between gap-3 bg-bg-warm/40 backdrop-blur-sm px-4 py-3 rounded-xl border border-text-espresso/10">
+              <div className="flex items-center justify-between gap-3 neu-morphism-inset px-4 py-3 rounded-xl border-none">
                 <a href={`mailto:${email}`} className="font-sans text-sm md:text-base font-semibold text-text-espresso hover:text-accent-slate transition-colors break-all">
                   {email}
                 </a>
@@ -123,7 +123,7 @@ export default function Contact() {
           </div>
 
           {/* Right Column: Local Submission Form */}
-          <div className="lg:col-span-7 bg-[#FAF8F5]/45 backdrop-blur-md border border-text-espresso/10 p-8 rounded-3xl relative shadow-sm">
+          <div className="lg:col-span-7 neu-morphism p-8 rounded-3xl relative">
             <div className="absolute -top-3 left-6 px-3 py-1 bg-[#FAF8F5]/85 backdrop-blur-sm text-text-espresso/60 font-grotesque text-[10px] tracking-wider uppercase font-bold rounded-t-md border-t border-x border-text-espresso/10">
               Message Form
             </div>
@@ -140,7 +140,7 @@ export default function Contact() {
                     required
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full px-4 py-3 bg-[#FAF8F5]/50 backdrop-blur-sm border border-text-espresso/15 focus:border-accent-slate rounded-xl text-text-espresso placeholder-text-espresso/35 outline-none transition-colors text-sm"
+                    className="w-full px-4 py-3 neu-morphism-inset border-none rounded-xl text-text-espresso placeholder-text-espresso/35 outline-none transition-colors text-sm focus:ring-2 focus:ring-accent-slate"
                     placeholder="Enter your name"
                   />
                 </div>
@@ -155,7 +155,7 @@ export default function Contact() {
                     required
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full px-4 py-3 bg-[#FAF8F5]/50 backdrop-blur-sm border border-text-espresso/15 focus:border-accent-slate rounded-xl text-text-espresso placeholder-text-espresso/35 outline-none transition-colors text-sm"
+                    className="w-full px-4 py-3 neu-morphism-inset border-none rounded-xl text-text-espresso placeholder-text-espresso/35 outline-none transition-colors text-sm focus:ring-2 focus:ring-accent-slate"
                     placeholder="Enter your email"
                   />
                 </div>
@@ -171,7 +171,7 @@ export default function Contact() {
                   rows={4}
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  className="w-full px-4 py-3 bg-[#FAF8F5]/50 backdrop-blur-sm border border-text-espresso/15 focus:border-accent-slate rounded-xl text-text-espresso placeholder-text-espresso/35 outline-none transition-colors resize-none text-sm"
+                  className="w-full px-4 py-3 neu-morphism-inset border-none rounded-xl text-text-espresso placeholder-text-espresso/35 outline-none transition-colors resize-none text-sm focus:ring-2 focus:ring-accent-slate"
                   placeholder="How can I help you?"
                 />
               </div>

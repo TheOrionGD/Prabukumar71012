@@ -66,7 +66,7 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="lg:col-span-5 bg-[#EAE3D5]/60 backdrop-blur-md border border-text-espresso/10 p-8 rounded-2xl relative shadow-sm"
+          className="lg:col-span-5 glass-morphism p-8 rounded-2xl relative"
         >
           {/* Subtle paper tab motif corner */}
           <div className="absolute top-0 right-0 w-8 h-8 bg-bg-warm rounded-bl-xl border-l border-b border-text-espresso/10" />

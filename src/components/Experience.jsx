@@ -37,7 +37,7 @@ export default function Experience() {
               {/* Timeline dot */}
               <div className="absolute -left-[31px] md:-left-[55px] top-1.5 w-4 h-4 bg-accent-slate rounded-full border-4 border-bg-warm" />
 
-              <div className="bg-[#FAF8F5]/45 backdrop-blur-md border border-text-espresso/10 p-6 md:p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300">
+              <div className="clay-morphism p-6 md:p-8">
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
                   <div>
                     <h3 className="font-grotesque text-xl font-extrabold uppercase text-text-espresso tracking-tight">
